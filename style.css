@@ -1,0 +1,92 @@
+/* Reset and basic styles */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #120a55;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #340ac9;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.img{
+    margin: 0 auto 0%;
+}
+
+.tagline {
+    font-style: italic;
+    color: #ecf0f1;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #34495e;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #2c3e50;
+}
+
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section {
+    padding: 2rem;
+}
+
+h1, h2 {
+    color: #266baf;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #15973c;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
